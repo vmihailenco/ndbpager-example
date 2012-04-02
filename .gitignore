@@ -1,0 +1,7 @@
+*.py[co]
+bootstrap.py
+.installed.cfg
+bin/
+eggs/
+var/
+app/lib/dist/

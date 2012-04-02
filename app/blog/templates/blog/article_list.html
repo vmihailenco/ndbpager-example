@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+{% for a in articles %}
+<h2>{{ a.title }}</h2>
+<p>{{ a.text }}</p>
+{% endfor %}
+
+{% include 'pager.html' %}
+
+</body>
+
+</html>
